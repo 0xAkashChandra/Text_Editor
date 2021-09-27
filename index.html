@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Text Editor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -14,28 +17,27 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light " style="font-size: 25px; font-family: sans-serif; background-color: whitesmoke;">
-        <div class="d-flex justify-content-center">Text Editor Project</div>
+    <nav class="navbar bg-dark" style="font-size: 25px; font-family: sans-serif; background-color: whitesmoke;">
+        <div class="mx-auto text-light">Text Editor Project</div>
     </nav>
     <div id="container">
         <div class="text_box" style="padding: 60px">
             Type in the box below
-            <br><br>
+            <br>
             <textarea class="form-control" id="comment" style="height: 100%;">
             </textarea>
         </div>
         <div class="text_box" style="overflow-y: scroll">
             <span id="temptext" style="width: 100%; text-align: center; font-size: x-large">
-                Sequence of operations will be shown here !
+                Sequence of operations in the stack will be shown here <br>Every operation that is performend will be shown in new Line !
             </span>
         </div>
     </div>
 
-    <div>
+    <div class="btnnn">
         <br>
-        <button type="button" class="btn btn-success" id="undo">&nbsp;&nbsp;&nbsp;Undo&nbsp;&nbsp;&nbsp;</button>
-        <br>
-        <button type="button" class="btn btn-danger" id="clear">Clear Box</button>
+        <button type="button" class="btn btn-success mr-5" id="undo">&nbsp;&nbsp;&nbsp;Undo&nbsp;&nbsp;&nbsp;</button>
+        <button type="button" class="btn btn-danger ml-5" id="clear">Clear Box</button>
     </div>
 </body>
 
