@@ -1,5 +1,7 @@
 # Text Editor
-<p>This Text Editor is made using Stack data structure and having the functionality to undo the changes</p>
+<p>It uses Stack Data Structure to store the Data </p>
+<br>
+<img src="/snap.png">
 
 ## Description
 Write, Delete and Undo text operations.
